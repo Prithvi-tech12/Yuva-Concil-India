@@ -1018,12 +1018,12 @@ section,
 --------------------------------------------------------------*/
 .about .about-img {
   position: relative;
-  margin: 60px 0 0 60px;
+  margin: 30px 0 0 30px;
 }
 
 .about .about-img:before {
   position: absolute;
-  inset: -60px 0 0 -60px;
+  inset: -30px 0 0 -30px;
   content: "";
   background: url("../img/about-bg.png") top left;
   background-repeat: no-repeat;
@@ -1035,7 +1035,7 @@ section,
   z-index: 2;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 400px) {
   .about .about-img {
     margin: 30px 0 0 30px;
   }
