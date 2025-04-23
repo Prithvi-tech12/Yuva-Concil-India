@@ -1,0 +1,165 @@
+/* General body settings */
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+/* General image settings */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Logo styling */
+.logo img {
+  height: 60px;
+  margin-right: 10px;
+}
+
+/* Header styles */
+.header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.header .logo h1 {
+  font-size: 1.5rem;
+  color: #0d6efd;
+  margin-left: 10px;
+}
+
+/* Navigation menu */
+.navmenu a {
+  color: #444;
+  font-weight: 500;
+}
+
+.navmenu a:hover,
+.navmenu .active {
+  color: #0d6efd;
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(45deg, #007bff, #00c6ff);
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 20px;
+  animation: bounce 3s infinite;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero .btn-get-started {
+  background-color: #fff;
+  color: #007bff;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.hero .btn-get-started:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* About section */
+.about .nav-pills .nav-link.active {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.about .nav-pills .nav-link {
+  color: #0d6efd;
+}
+
+/* Services */
+.service-item {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.3s;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.service-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.service-item .icon {
+  font-size: 2rem;
+  color: #0d6efd;
+}
+
+.service-item .img img {
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Team member images */
+.team-member .member-img img {
+  border-radius: 12px;
+  border: 3px solid #0d6efd;
+  transition: transform 0.3s ease-in-out;
+}
+
+.team-member .member-img img:hover {
+  transform: scale(1.05);
+}
+
+/* Portfolio and blog post images */
+.portfolio-content img,
+.post-img img {
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-content img:hover,
+.post-img img:hover {
+  transform: scale(1.03);
+}
+
+/* Footer */
+.footer {
+  background: #343a40;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer .footer-top {
+  border-top: 2px solid #0d6efd;
+  padding-top: 20px;
+}
+
+.footer a {
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #0d6efd;
+}
+
+/* Animation for hero image */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
